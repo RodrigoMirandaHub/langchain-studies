@@ -13,6 +13,11 @@ Qualificador de leads B2B que retorna JSON estruturado via Groq/LLaMA.
 Conversa com memória entre turnos usando `RunnableWithMessageHistory`.
 O modelo lembra contexto de mensagens anteriores na mesma sessão.
 
+### 03 — FastAPI Endpoint
+Exposes the lead qualifier chain as a REST API using FastAPI.
+`POST /qualify` receives lead data and returns the structured JSON analysis.
+Interactive docs available at `/docs` (Swagger UI).
+
 ## Stack
 - LangChain + LangChain Core
 - Groq API (llama-3.1-8b-instant)
