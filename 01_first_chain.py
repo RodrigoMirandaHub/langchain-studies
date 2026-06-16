@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain_core.prompts import PromptTemplate
@@ -64,5 +64,5 @@ result = chain.invoke({
     "message": "Preciso automatizar meu processo de vendas urgente, temos budget aprovado"
 })
 
->>>>>>> b2ec4cdea7d662fb98737ccaf8d5cb7a02191f77
+
 print (result.content)
