@@ -1,0 +1,15 @@
+TaskFlow é uma plataforma SaaS de gerenciamento de projetos voltada para equipes remotas.
+
+O plano gratuito do TaskFlow permite até 5 usuários e 3 projetos simultâneos, com armazenamento de 1GB.
+
+O plano Pro custa $12 por usuário/mês e inclui automações ilimitadas, integrações com Slack e Google Drive, e suporte prioritário.
+
+A API do TaskFlow utiliza autenticação via Bearer Token e possui rate limit de 100 requisições por minuto no plano gratuito.
+
+Webhooks no TaskFlow disparam eventos para: criação de tarefa, conclusão de tarefa, e mudança de status de projeto.
+
+O tempo médio de resposta do suporte é de 4 horas no plano Pro e 24 horas no plano gratuito.
+
+A integração com Slack permite receber notificações de tarefas atrasadas diretamente em um canal configurado.
+
+TaskFlow oferece exportação de dados em formato CSV e JSON, disponível em todos os planos.
